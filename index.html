@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Abuzar Ansari - Digital Marketing Specialist and Gold Trading Enthusiast.">
+    <title>Abuzar Ansari | Digital Expert & Trader</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --gold: #d4af37;
+            --black: #080808;
+            --white: #f5f5f5;
+            --gray: #aaaaaa;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: var(--black);
+            color: var(--white);
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            border-bottom: 1px solid #292929;
+        }
+
+        .logo {
+            color: var(--gold);
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 70px 20px;
+            background:
+                radial-gradient(ellipse at top, #29200c 0%, #080808 60%);
+        }
+
+        .tag {
+            color: var(--gold);
+            border: 1px solid var(--gold);
+            padding: 7px 18px;
+            border-radius: 30px;
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 76px);
+            margin: 25px 0 10px;
+        }
+
+        h1 span,
+        h2 span {
+            color: var(--gold);
+        }
+
+        .hero p {
+            color: var(--gray);
+            max-width: 600px;
+            margin: 10px auto 25px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 14px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: var(--gold);
+            color: #080808;
+        }
+
+        .secondary {
+            border: 1px solid var(--gold);
+            color: var(--gold);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            opacity: 0.85;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .section-title h2 {
+            font-size: 34px;
+        }
+
+        .section-title p {
+            color: var(--gray);
+            margin-top: 8px;
+        }
+
+        .about {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+            color: var(--gray);
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #111111;
+            border: 1px solid #292929;
+            border-radius: 12px;
+            padding: 28px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+        }
+
+        .card .icon {
+            font-size: 32px;
+        }
+
+        .card h3 {
+            color: var(--gold);
+            margin: 12px 0;
+        }
+
+        .card p {
+            color: var(--gray);
+            font-size: 14px;
+        }
+
+        .contact {
+            text-align: center;
+            background: #101010;
+        }
+
+        .contact p {
+            color: var(--gray);
+            margin: 12px 0 24px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px;
+            color: var(--gray);
+            border-top: 1px solid #292929;
+            font-size: 13px;
+        }
+
+        footer span {
+            color: var(--gold);
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 14px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 13px;
+            }
+
+            section {
+                padding: 55px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">ABUZAR<span>.</span></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero" id="home">
+            <div class="tag">DIGITAL MARKETING & TRADING</div>
+
+            <h1>I'm <span>Abuzar Ansari</span></h1>
+
+            <p>
+                Digital Marketing Specialist with an interest in
+                Gold Trading, online business, and digital growth.
+                Welcome to my official website.
+            </p>
+
+            <div class="buttons">
+                <a href="#services" class="btn primary">
+                    Explore My Skills
+                </a>
+
+                <a
+                    href="https://www.tiktok.com/@abuzaransai245"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn secondary">
+                    Visit My TikTok
+                </a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-title">
+                <h2>About <span>Me</span></h2>
+                <p>My journey in the digital world</p>
+            </div>
+
+            <div class="about">
+                <p>
+                    Hello! I'm Abuzar Ansari. I am interested in
+                    digital marketing, creative design, online business,
+                    and financial markets. My goal is to build my skills,
+                    grow my personal brand, and create new opportunities
+                    through technology.
+                </p>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="section-title">
+                <h2>My <span>Skills</span></h2>
+                <p>What I focus on</p>
+            </div>
+
+            <div class="cards">
+
+                <div class="card">
+                    <div class="icon">📈</div>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Social media marketing, online advertising,
+                        audience growth, and digital brand development.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🎯</div>
+                    <h3>Facebook & Google Ads</h3>
+                    <p>
+                        Learning and applying advertising strategies
+                        to reach relevant audiences and grow businesses.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🥇</div>
+                    <h3>Gold Trading</h3>
+                    <p>
+                        Following XAU/USD price movements, chart analysis,
+                        market trends, and risk management.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">🎨</div>
+                    <h3>Creative Design</h3>
+                    <p>
+                        Creating social media graphics, brand visuals,
+                        and engaging digital content.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-title">
+                <h2>Let's <span>Connect</span></h2>
+                <p>Follow my journey and stay connected.</p>
+            </div>
+
+            <a
+                href="https://www.tiktok.com/@abuzaransai245"
+                target="_blank"
+                rel
